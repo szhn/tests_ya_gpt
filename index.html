@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Tachka</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="renderer.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Test</h1>
+        <div class="form-group">
+            <label for="streamer">Имя стримера:</label>
+            <input type="text" id="streamer" placeholder="Введите имя стримера">
+        </div>
+        <div class="form-group">
+            <label for="account">Выберите аккаунт:</label>
+            <select id="account" disabled></select>
+        </div>
+        <!-- <div class="form-group button-group">
+            <button id="collect-points" class="dark-button">Собирать баллы</button>
+            <button id="stop-collect-points" class="dark-button">Остановить сбор баллов</button>
+        </div>         -->
+        <div class="form-group">
+            <label><input type="checkbox" id="random"> Рандомный аккаунт</label>
+        </div>
+        <div class="form-group">
+            <label for="message">Сообщение:</label>
+            <input type="text" id="message" placeholder="Введите сообщение">
+        </div>
+        <div class="form-group">
+            <button id="send" disabled>Отправить сообщение</button>
+        </div>
+        <div class="form-group button-group">
+            <button id="connect-proxy" class="dark-button">Подключить прокси</button>
+            <button id="connect" class="dark-button" disabled>Подключить аккаунты</button>
+            <button id="disconnect" class="dark-button">Отключить аккаунты</button>
+        </div>
+        <h2>Кнопки:</h2>
+        <div id="custom-buttons" class="buttons-container"></div>
+    </div>
+</body>
+</html>

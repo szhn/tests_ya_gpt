@@ -1,0 +1,19 @@
+{
+  "name": "tests_ya_gpt",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^34.0.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "tmi.js": "^1.8.5",
+    "tunnel": "^0.0.6"
+  }
+}
